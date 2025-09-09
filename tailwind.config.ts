@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        marketplace: {
+          primary: "hsl(var(--marketplace-primary))",
+          "primary-light": "hsl(var(--marketplace-primary-light))",
+          secondary: "hsl(var(--marketplace-secondary))",
+          accent: "hsl(var(--marketplace-accent))",
+          success: "hsl(var(--marketplace-success))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
