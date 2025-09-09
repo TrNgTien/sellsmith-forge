@@ -12,14 +12,6 @@ export function GoogleFormEmbed() {
   const { toast } = useToast();
 
   const convertToEmbedUrl = (url: string) => {
-    // Convert Google Form view URL to embed URL
-    if (url.includes("forms.gle") || url.includes("docs.google.com/forms")) {
-      // Extract the form ID and convert to embed format
-      const formId = url.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1] || url.split("/").pop();
-      if (formId) {
-        return `https://docs.google.com/forms/d/e/${formId}/viewform?embedded=true`;
-      }
-    }
     return url;
   };
 
